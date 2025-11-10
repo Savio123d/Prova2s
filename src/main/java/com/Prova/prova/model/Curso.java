@@ -1,13 +1,14 @@
 package com.Prova.prova.model;
 
 
+import com.Prova.prova.enums.Status;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
 @Table(name = "Cursos")
-public class curso {
+public class Curso {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,4 +18,5 @@ public class curso {
 
     private List alunos;
 
+    Status StatusAlunos;
 }

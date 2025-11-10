@@ -1,6 +1,6 @@
 package com.Prova.prova.enums;
 
-public enum status {
+public enum Status {
     ativo,inativo,
     tracado
 }
